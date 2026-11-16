@@ -5,3 +5,8 @@ license.workspace = true
 version.workspace = true
 
 [dependencies]
+graver-core = { version = "0.0.1", path = "../graver-core" }
+ttf-parser = "0.25.1"
+
+[dev-dependencies]
+roxmltree = "0.21.2"
